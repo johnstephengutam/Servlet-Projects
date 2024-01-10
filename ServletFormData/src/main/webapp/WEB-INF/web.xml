@@ -19,4 +19,14 @@
    <servlet-name>HelloFormServlet</servlet-name>
    <url-pattern>/HelloForm</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+   <servlet-name>CheckboxServlet</servlet-name>
+   <servlet-class>com.serious.CheckBox</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>CheckboxServlet</servlet-name>
+   <url-pattern>/CheckBox123</url-pattern>
+  </servlet-mapping>
 </web-app>
