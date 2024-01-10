@@ -5,7 +5,11 @@ import javax.servlet.http.*;
 
 public class HelloWorld extends HttpServlet {
  
-   private String message;
+   /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+private String message;
 
    public void init() throws ServletException {
       message = "Hello World dot com. Welcome India";
